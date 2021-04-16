@@ -1,0 +1,183 @@
+.singleProductContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 40px 0;
+}
+
+.singleImage {
+    /* min-height: 500px;
+    min-width: 500px; */
+    max-width: 50%;
+    border-radius: 2px;
+}
+
+.singleTextContainer {
+    width: 600px;
+}
+
+.singleQuantity {
+    color: rgb(224, 15, 15);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.singleDescription {
+    padding-top: 40px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.productEmail {
+    margin: 40px 0 40px 0;
+    width: 600px;
+}
+
+.productEmailHeader {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: rgb(190, 0, 0);
+}
+
+.singleEditContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.singleEditContainer input,
+.singleEditContainer textarea {
+    margin: 10px;
+}
+
+.singleEditDescription {
+    height: 100px;
+    width: 250px;
+}
+
+.editProductButton {
+    width: 100px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    
+    .singleImage {
+        max-height: 500px;
+    }
+    
+    .singleTextContainer {
+        width: 400px;
+    }
+    
+    .singleQuantity {
+        font-size: 1.1rem;
+    }
+    
+    .singleDescription {
+        padding-top: 20px;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .productEmail {
+        width: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 976px) {
+
+    .singleBrand {
+        font-size: 1.1rem;
+    }
+    .singleName {
+        font-size: 1.5rem;
+    }
+
+    .singlePrice {
+        font-size: 1.2rem;
+    }
+    
+    .singleImage {
+        max-height: 400px;
+    }
+    
+    .singleTextContainer {
+        width: 300px;
+    }
+    
+    .singleQuantity {
+        font-size: 1rem;
+    }
+    
+    .singleDescription {
+        font-size: 1rem;
+    }
+
+    .productEmail {
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 764px) {
+
+    .singleProductContainer {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        margin: 40px 0 40px 0;
+    }
+
+    .singleBrand {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .singleName {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .singlePrice {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    .singleImage {
+        max-height: 400px;
+        max-width: 95%;
+    }
+    
+    .singleTextContainer {
+        width: 90%;
+    }
+    
+    .singleQuantity {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .singleDescription {
+        font-size: 0.9rem;
+    }
+
+    .productEmail {
+        width: 95%;
+    }
+
+    .singleEditContainer {
+        max-width: 90%;
+        width: 70%;
+    }
+
+    .singleEditContainer input {
+        width: 50%;
+    }
+    
+    .singleEditDescription {
+        height: 150px;
+        width: 90%;
+    }
+    
+}

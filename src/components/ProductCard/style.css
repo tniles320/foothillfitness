@@ -1,0 +1,130 @@
+.productContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+    flex-wrap: wrap;
+}
+
+.productCard {
+    height: 332px;
+    width: 250px;
+    margin: 0 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.deleteProduct {
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.productCard:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.productImage {
+    height: 250px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.productLink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    height: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.productTextContainer {
+    text-align: center;
+}
+
+.productBrand {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.productName {
+    margin-top: 5px;
+}
+
+.saleBanner {
+    color: white;
+    background-image: linear-gradient(to right, rgba(175, 25, 25, 0.0), rgba(175, 25, 25), rgba(175, 25, 25, 0.0));
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 976px) {
+
+    .productContainer {
+        margin-left: 190px;
+    }
+    
+    .productCard {
+        height: 235px;
+        width: 164px;
+        margin: 0 10px 20px 10px;
+    }
+    
+    .productImage {
+        height: 164px;
+        width: 164px;
+    }
+    
+    .productLink {
+        font-size: 1rem;
+    }
+    
+    .saleBanner {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 764px) {
+
+    .productContainer {
+        margin-left: 120px;
+    }
+    
+    .productCard {
+        height: 170px;
+        width: 110px;
+        margin: 5px 5px 5px 5px;
+    }
+    
+    .productImage {
+        height: 110px;
+        width: 110px;
+    }
+    
+    .productLink {
+        font-size: 0.8rem;
+    }
+
+    .productBrand {
+        margin-top: 8px;
+    }
+    
+    .productName {
+        margin-top: 2px;
+    }
+    
+    .saleBanner {
+        font-size: 0.7rem;
+        margin-top: 4px;
+    }
+
+    .deleteProduct {
+        position: relative;
+    }
+
+}

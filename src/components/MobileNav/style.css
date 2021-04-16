@@ -1,0 +1,48 @@
+.mobileNavContainer {
+    display: none;
+}
+
+.sideNavLogout:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 764px) {
+
+    .mobileNavContainer {
+        display: block;
+    }
+
+    .mobileLogoLink {
+        background-color: rgb(255, 255, 255);
+        padding: 5px 0 5px 0;
+    }
+
+    .mobileLogoLink a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sideNavLogo {
+        width: 50%;
+    }
+
+    #open-nav {
+        display: block;
+    }  
+    
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+
+    #sidenav {
+        padding-top: 15px;
+    }
+
+    #sidenav a {
+        font-size: 18px;
+    }
+    
+}

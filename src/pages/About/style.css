@@ -1,0 +1,104 @@
+.aboutContainer {
+    display: flex;
+    margin: 20px;
+}
+
+.aboutTextContainer {
+    margin: 5px 40px 0 40px;
+    max-width: 40%;
+}
+
+.aboutHeadliine {
+    font-size: 2rem;
+}
+
+.aboutHeader {
+    font-size: 2rem;
+}
+
+.aboutBody {
+    font-size: 1.4rem;
+}
+
+.aboutImageContainer {
+    max-width: 60%;
+}
+
+.aboutEmailContainer {
+    width: 600px;
+}
+
+.aboutImage {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.aboutEmailHeader {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: rgb(190, 0, 0);
+}
+
+@media screen and (max-width: 976px) {
+
+    .aboutContainer {
+        margin: 10px;
+    }
+    
+    .aboutTextContainer {
+        margin: 5px 20px 0 20px;
+    }
+
+    .aboutHeadliine {
+        font-size: 1.5rem;
+    }
+    
+    .aboutHeader {
+        font-size: 1.5rem;
+    }
+    
+    .aboutBody {
+        font-size: 1rem;
+    }
+
+    .aboutEmailContainer {
+        width: 400px;
+    }
+    
+    .aboutEmailHeader {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 764px) {
+
+    .aboutContainer {
+        margin: 5px 5px 80px 5px;
+    }
+    
+    .aboutTextContainer {
+        margin: 5px 10px 0 5px;
+    }
+
+    .aboutHeadliine {
+        font-size: 0.9rem;
+    }
+    
+    .aboutHeader {
+        font-size: 0.9rem;
+    }
+    
+    .aboutBody {
+        font-size: 0.8rem;
+    }
+
+    .aboutEmailContainer {
+        width: 95%;
+    }
+    
+    .aboutEmailHeader {
+        font-size: 1rem;
+    }
+
+}

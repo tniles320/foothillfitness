@@ -1,0 +1,37 @@
+.addProductContainer {
+    display: flex;
+}
+
+#productForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#productForm div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#uploadImage {
+    margin: 10px;
+}
+
+#addProductButton {
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#addDescription {
+    width: 350px;
+    height: 100px;
+}
+
+@media screen and (max-width: 764px) {
+
+    .addProductContainer {
+        flex-direction: column;
+    }
+    
+}

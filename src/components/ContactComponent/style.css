@@ -1,0 +1,111 @@
+.homeContactContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px 0 20px;
+    height: 412px;
+    margin: 40px 20px 40px 20px;
+}
+
+.homeContactText {
+    width: 50%;
+    padding-top: 20px;
+    background: linear-gradient(to right, rgb(255, 255, 255, 0), rgb(255, 255, 255), rgb(255, 255, 255, 0));
+}
+
+.streetLocation {
+    font-size: 1.5rem;
+}
+
+.streetLocation span {
+    text-decoration: underline;
+    color: rgb(0, 0, 190);
+}
+
+.streetLocation span:hover {
+    cursor: pointer;
+}
+
+.contactPhone {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contactPhone span {
+    text-decoration: underline;
+    color: rgb(0, 0, 190);
+}
+
+.contactPhone span:hover {
+    cursor: pointer;
+}
+
+.contactLink {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    
+    .streetLocation {
+        font-size: 1.4rem;
+    }
+    
+    .contactPhone {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .contactLink {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media screen and (max-width: 976px) {
+
+    .homeContactContainer {
+        height: 300px;
+        margin: 40px 10px 40px 10px;
+    }
+    
+    .streetLocation {
+        font-size: 1.2rem;
+    }
+    
+    .contactPhone {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    
+    .contactLink {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 764px) {
+
+    .homeContactContainer {
+        height: 200px;
+        padding: 0 5px 0 5px;
+        margin: 20px 5px 10px 5px;
+    }
+
+    .homeContactText {
+        padding-top: 5px;
+    }
+
+    .streetLocation {
+        font-size: 0.7rem;
+    }
+    
+    .contactPhone {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    
+    .contactLink {
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+}

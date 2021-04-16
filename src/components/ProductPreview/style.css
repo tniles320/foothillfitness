@@ -1,0 +1,37 @@
+.productPreviewContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagePreview {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.textContainerPreview {
+    max-width: 500px;
+}
+
+.descriptionPreview {
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 764px) {
+    
+    .productPreviewContainer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .imagePreview {
+        max-width: 40%;
+    }
+    
+    .textContainerPreview {
+        max-width: 40%;
+    }
+    
+    .descriptionPreview {
+        padding-top: 20px;
+    }
+}

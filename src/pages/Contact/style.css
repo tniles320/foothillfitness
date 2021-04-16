@@ -1,0 +1,132 @@
+.mapLocation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 400px;
+}
+
+.contactStreetLocation {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 40px;
+    font-size: 1.5rem;
+}
+
+.hours {
+    font-family: 'Courier', monospace;
+    font-size: 1rem;
+    background: linear-gradient(to right, rgb(255, 255, 255, 0.7), rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0));
+    padding: 5px 0 5px 10px;
+    border-radius: 2px;
+}
+
+.contactStreetLocation div {
+    margin-bottom: 10px;
+}
+
+.contactStreetLocation span {
+    text-decoration: underline;
+    color: rgb(0, 0, 190);
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.contactPageContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.contactImageContainer {
+    max-width: 50%;
+}
+
+.contactPageImage {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contactEmailHeader {
+    font-size: 1.5rem;
+}
+.contactEmailContainer {
+    margin: 0 0 0 100px;
+    width: 600px;
+}
+
+@media screen and (max-width: 976px) {
+
+    .mapLocation {
+        margin: 10px;
+        height: 360px;
+    }
+    
+    .contactStreetLocation {
+        margin: 40px 0 0 20px;
+        font-size: 1.2rem;
+    }
+    
+    .hours {
+        font-size: 1rem;
+    }
+    
+    .contactStreetLocation span {
+        margin-bottom: 20px;
+    }
+    
+    .contactPageContainer {
+        margin: 10px;
+    }
+    
+    .contactEmailHeader {
+        font-size: 1.2rem;
+    }
+    .contactEmailContainer {
+        margin: 0 0 0 50px;
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 764px) {
+
+    .mapLocation {
+        margin: 5px;
+        height: 500px;
+        flex-direction: column;
+    }
+    
+    .contactStreetLocation {
+        margin: 10px 0 0 5px;
+        font-size: 1rem;
+    }
+    
+    .hours {
+        font-size: 0.7rem;
+    }
+    
+    .contactStreetLocation span {
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+    }
+    
+    .contactPageContainer {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contactImageContainer {
+        margin-top: 10px;
+        align-self: center;
+        max-width: 95%;
+    }
+    
+    .contactEmailHeader {
+        font-size: 1rem;
+    }
+    .contactEmailContainer {
+        margin: 5px;
+        width: 95%;
+    }
+
+}
