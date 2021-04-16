@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "foothillfitness",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://us-central1-foothill-fitness.cloudfunctions.net/api",
