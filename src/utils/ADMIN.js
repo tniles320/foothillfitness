@@ -5,7 +5,8 @@ const URL = "https://us-central1-foothill-fitness.cloudfunctions.net/app";
 
 const headers = {
   "Content-Type": "application/json",
-  "Access-Control-Allow-Origin": "https://foothillfitness.com",
+  "Access-Control-Allow-Origin":
+    "https://us-central1-foothill-fitness.cloudfunctions.net/app",
   "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
   "Access-Control-Allow-Headers": "X-Requested-With,content-type",
   "Access-Control-Allow-Credentials": true,
