@@ -5,7 +5,8 @@
     text-decoration: none;
     color: black;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgb(201, 201, 201);
     padding: 0 20px 0 20px;
   }
   
@@ -23,10 +24,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(201, 201, 201);
     width: inherit;
     z-index: 1;
     height: auto;
+    padding-bottom: 1px;
   }
   
   /* Links inside the dropdown */
@@ -35,6 +38,8 @@
     text-decoration: none;
     padding: 11px;
     font-size: 1.1rem;
+    box-shadow: 1px 2px 2px 0px rgb(0, 0, 0, 0.6);
+    border-radius: 4px;
   }
 
   .navLogout {

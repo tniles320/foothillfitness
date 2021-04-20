@@ -1,7 +1,7 @@
 #topNav {
     display: flex;
     justify-content: flex-start;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(201, 201, 201);
     height: 92px;
     padding: 10px 40px 10px 10px;
     margin-bottom: 10px;
@@ -9,6 +9,16 @@
 
 .logout:hover {
     cursor: pointer;
+}
+
+.logoLink {
+    /* background-image: linear-gradient(to right, rgb(243, 243, 243, 0.3), rgb(201, 201, 201, 0.3)); */
+    margin-right: 60px;
+}
+
+.logo {
+    box-shadow: 10px 10px 15px 0px rgb(0, 0, 0, 0.6);
+    border-radius: 4px;
 }
 
 .navLinkContainer {
@@ -30,7 +40,8 @@
     padding: 20px;
     font-size: 1.5rem;
     /* background-color: rgb(243, 243, 243); */
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(243, 243, 243));
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(243, 243, 243)); */
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(201, 201, 201));
 }
 
 .topNavLink:hover,
@@ -50,6 +61,10 @@
 
     #topNav {
         padding-right: 20px;
+    }
+
+    .logoLink {
+        margin-right: 20px;
     }
     
 }

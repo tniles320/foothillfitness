@@ -8,7 +8,8 @@
     box-shadow: 10px 10px 15px 0px rgb(0, 0, 0, 0.6);
     border-radius: 4px;
     padding: 20px;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(243, 243, 243));
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(243, 243, 243)); */
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(201, 201, 201));
   }
 
   .dropbtn:hover {
@@ -97,10 +98,12 @@
       text-decoration: none;
       color: black;
       text-align: center;
-      box-shadow: none;
-      border-radius: 0;
+      /* box-shadow: none; */
+      /* border-radius: 0; */
+      box-shadow: 1px 2px 2px 0px rgb(0, 0, 0, 0.6);
+      border-radius: 4px;
       padding: 10px;
-      background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+      background-image: linear-gradient(to right, rgb(201, 201, 201), rgb(201, 201, 201));
     }
 
     .dropbtn:hover {

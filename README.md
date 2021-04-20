@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Foothill Fitness
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![license](https://img.shields.io/badge/License-MIT-orange)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Foothill Fitness is a fullstack application used to showcase the client’s current inventory of goods and offered services available to the public that are maintained and updated via user interactions. The application utilizes ReactJS, CSS, NodeJS, MongoDB, PassportJS, ExpressJS, Multer, Axios, AWS s3 Bucket, and RESTful methods to develop frontend design, client-side validations to develop full user experience. Fnally, the application is deployed using Firebase Hosting.
 
-### `npm start`
+### _Visit the website by clicking here_
+[Foothill Fitness](https://foothill-fitness.firebaseapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### _Check out the API repo by clickling here_
+[foothillfitness-api](https://github.com/tniles320/foothillfitness-api)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![home page screenshot](src/images/ss.png)
 
-### `npm test`
+## Table of Contents 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Installation](#installation)
 
-### `npm run build`
+* [Usage](#usage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Contribution Guidelines](#contribution-guidelines)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Tests](#tests)
 
-### `npm run eject`
+* [Questions](#questions)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run the following command to install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+This web app utilizes Express, Axios, Multer, s3 Bucket, and MongoDB to allow an admin to dynamically add, update and, remove data. After logging in, the admin will be able to view unique pages, dsiplayed using React's Context. From any of these pages the admin can update current information, delete products, and add new products that will be displayed in real time.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under MIT
 
-### Code Splitting
+## Contribution Guidelines
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Currently there are no contribution guidelines for this repo.
 
-### Analyzing the Bundle Size
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Run the following command in the terminal to run tests:
 
-### Making a Progressive Web App
+```
+no tests currently for this repo
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Questions
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions regarding this repo, you may contact me at tniles320@gmail.com. To see my other work, follow this link: [GitHub](https://github.com/tniles320/).

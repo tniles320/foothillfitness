@@ -32,8 +32,8 @@ function TopNav(props) {
 
   return (
     <div id="topNav">
-      <Link to={loggedIn ? "/admin" : "/"}>
-        <img src={logo} className="logo" alt="logo"></img>
+      <Link to={loggedIn ? "/admin" : "/"} className="logoLink">
+        <img src={logo} className="logo" alt="logo" />
       </Link>
       <div className="navLinkContainer">
         <Dropdown title="Equipment" list={equipList} />

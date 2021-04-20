@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     color: rgb(255, 255, 255);
     background-image: url("../../images/Over-Project.png");
     background-position: center;
@@ -31,7 +31,7 @@
 @media screen and (max-width: 764px) {
     
     .header {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         text-align: center;
         padding: 5px;
         height: 100px;
