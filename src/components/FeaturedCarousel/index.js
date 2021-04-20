@@ -33,7 +33,9 @@ function FeaturedCarousel() {
 
   const handleFeaturedContent = async () => {
     await API.getFeatured().then((res) => {
-      res.data.map((content) => {
+      const data = res.data;
+      console.log(data);
+      data.map((content) => {
         return setFeaturedContent((featuredContent) => [
           content,
           ...featuredContent,
