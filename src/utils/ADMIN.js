@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import axios from "axios";
 
-const URL = "https://us-central1-foothill-fitness.cloudfunctions.net/api";
+const URL = "https://us-central1-foothill-fitness.cloudfunctions.net/app";
 
 export default {
   // Gets user info
