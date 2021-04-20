@@ -12,6 +12,9 @@ Foothill Fitness is a fullstack application used to showcase the client’s curr
 ### _Check out the API repo by clickling here_
 [foothillfitness-api](https://github.com/tniles320/foothillfitness-api)
 
+### _To view commit history visit the old repo here_
+[foothillfitness-old](https://github.com/tniles320/foothillfitness-old)
+
 ![home page screenshot](src/images/ss.png)
 
 ## Table of Contents 
